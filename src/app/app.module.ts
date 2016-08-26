@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ChatWindowComponent } from './chat-window/chat-window.component';
 import { CourtComponent } from './court/court.component';
+import { MdToolbarModule } from '@angular2-material/toolbar';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { CourtComponent } from './court/court.component';
   ],
   imports: [
     BrowserModule,
+    MdToolbarModule,
     CommonModule,
     FormsModule
   ],
